@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Miles Platforms Group — Engineering Digital Infrastructure</title>
+  <title>Miles Platforms Group — Engineering an Empowered Africa</title>
   <meta name="description"
     content="Miles Platforms Group is a software engineering and technology platforms company building secure, scalable digital infrastructure for education, higher education, healthcare, security, and commerce.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://milesplatformsgroup.com/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Miles Platforms Group — Engineering Digital Infrastructure">
+  <meta property="og:title" content="Miles Platforms Group — Engineering an Empowered Africa">
   <meta property="og:description"
     content="Secure, scalable technology platforms for education, higher education, healthcare, security, and commerce. Currently building our technology portfolio.">
   <link rel="icon" type="image/png"
@@ -46,7 +46,7 @@
       --line-dark: rgba(201, 161, 92, 0.22);
       --line-light: rgba(20, 23, 27, 0.14);
       --radius: 3px;
-      --max: 1180px;
+      --max: 1240px;
       --display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
       --body: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
       --mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
@@ -68,8 +68,8 @@
       }
 
       * {
-        animation-duration: 0.001ms !important;
-        transition-duration: 0.001ms !important;
+        animation-duration: .001ms !important;
+        transition-duration: .001ms !important;
       }
     }
 
@@ -78,7 +78,7 @@
       background: var(--ink);
       color: #EDEEEA;
       line-height: 1.55;
-      -webkit-font-smoothing: antialiased;
+      -webkit-font-smoothing: antialiased
     }
 
     img {
@@ -134,12 +134,12 @@
     .eyebrow {
       font-family: var(--mono);
       font-size: 12px;
-      letter-spacing: 0.14em;
+      letter-spacing: .14em;
       text-transform: uppercase;
       color: var(--brass);
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 10px
     }
 
     .eyebrow::before {
@@ -154,7 +154,6 @@
       color: var(--brass-deep)
     }
 
-    /* ---------- Skip link ---------- */
     .skip-link {
       position: absolute;
       left: -999px;
@@ -176,10 +175,10 @@
     header.site-nav {
       position: sticky;
       top: 0;
-      z-index: 100;
-      background: rgba(20, 23, 27, 0.92);
+      z-index: 200;
+      background: rgba(20, 23, 27, .94);
       backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--line-dark);
+      border-bottom: 1px solid var(--line-dark)
     }
 
     .nav-inner {
@@ -205,7 +204,7 @@
     .brand-text {
       font-family: var(--mono);
       font-size: 13px;
-      letter-spacing: 0.06em;
+      letter-spacing: .06em;
       line-height: 1.2
     }
 
@@ -214,26 +213,24 @@
       font-family: var(--display);
       font-size: 15px;
       font-weight: 600;
-      letter-spacing: 0.01em;
       color: #F5F5F1
     }
 
     .brand-text span {
       color: var(--muted-dark);
       font-size: 11px;
-      letter-spacing: 0.12em
+      letter-spacing: .12em
     }
 
     nav.primary {
       display: flex;
       align-items: center;
-      gap: 30px
+      gap: 28px
     }
 
     nav.primary a {
       font-size: 14px;
-      color: #D9DADA;
-      letter-spacing: 0.01em
+      color: #D9DADA
     }
 
     nav.primary a:hover {
@@ -243,12 +240,11 @@
     .nav-cta {
       font-family: var(--mono);
       font-size: 12.5px;
-      letter-spacing: 0.04em;
       border: 1px solid var(--brass);
       color: var(--brass-soft);
       padding: 9px 16px;
       border-radius: var(--radius);
-      white-space: nowrap;
+      white-space: nowrap
     }
 
     .nav-cta:hover {
@@ -262,10 +258,11 @@
       border: 1px solid var(--line-dark);
       color: #EDEEEA;
       padding: 8px 10px;
-      border-radius: var(--radius)
+      border-radius: var(--radius);
+      cursor: pointer
     }
 
-    @media (max-width:900px) {
+    @media (max-width:960px) {
       nav.primary {
         position: fixed;
         top: 64px;
@@ -275,7 +272,7 @@
         flex-direction: column;
         align-items: flex-start;
         padding: 20px 28px;
-        gap: 18px;
+        gap: 16px;
         border-bottom: 1px solid var(--line-dark);
         transform: translateY(-8px);
         opacity: 0;
@@ -301,16 +298,15 @@
       gap: 8px;
       font-family: var(--mono);
       font-size: 13.5px;
-      letter-spacing: 0.03em;
       padding: 13px 22px;
       border-radius: var(--radius);
       border: 1px solid transparent;
-      cursor: pointer;
+      cursor: pointer
     }
 
     .btn-primary {
       background: var(--brass);
-      color: var(--ink);
+      color: var(--ink)
     }
 
     .btn-primary:hover {
@@ -318,23 +314,13 @@
     }
 
     .btn-ghost {
-      border-color: var(--line-dark);
-      color: #EDEEEA
+      border-color: rgba(255, 255, 255, .35);
+      color: #fff
     }
 
     .btn-ghost:hover {
       border-color: var(--brass);
       color: var(--brass-soft)
-    }
-
-    .on-paper .btn-ghost {
-      border-color: var(--line-light);
-      color: var(--ink)
-    }
-
-    .on-paper .btn-ghost:hover {
-      border-color: var(--brass-deep);
-      color: var(--brass-deep)
     }
 
     .btn-arrow {
@@ -345,119 +331,229 @@
       transform: translateX(3px)
     }
 
-    /* ---------- Status badge ---------- */
-    .badge {
+    /* ---------- HERO SLIDER (mirrors a full-bleed corporate slider) ---------- */
+    .slider {
+      position: relative;
+      height: min(88vh, 760px);
+      min-height: 520px;
+      overflow: hidden;
+      border-bottom: 1px solid var(--line-dark)
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: flex-end;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .7s ease;
+    }
+
+    .slide.active {
+      opacity: 1;
+      visibility: visible
+    }
+
+    .slide .slide-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .slide .slide-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(14, 16, 19, .35) 0%, rgba(14, 16, 19, .55) 55%, rgba(14, 16, 19, .92) 100%)
+    }
+
+    .slide-content {
+      position: relative;
+      z-index: 2;
+      padding: 0 28px 88px;
+      max-width: var(--max);
+      margin: 0 auto;
+      width: 100%
+    }
+
+    .slide-eyebrow {
       font-family: var(--mono);
-      font-size: 10.5px;
-      letter-spacing: 0.1em;
+      font-size: 12.5px;
+      letter-spacing: .16em;
       text-transform: uppercase;
-      border: 1px solid var(--brass);
       color: var(--brass-soft);
-      padding: 4px 9px;
-      border-radius: 20px;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      white-space: nowrap;
+      margin-bottom: 18px;
+      display: block
     }
 
-    .badge::before {
-      content: "";
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--brass-soft);
-      box-shadow: 0 0 0 3px rgba(201, 161, 92, 0.18)
+    .slide h1 {
+      font-size: clamp(32px, 5.6vw, 60px);
+      line-height: 1.05;
+      max-width: 16ch;
+      margin-bottom: 20px;
+      color: #fff
     }
 
-    .on-paper .badge {
-      color: var(--brass-deep);
-      border-color: var(--brass-deep)
+    .slide p {
+      font-size: 17px;
+      color: #DCDDD8;
+      max-width: 52ch;
+      margin-bottom: 28px
     }
 
-    .on-paper .badge::before {
-      background: var(--brass-deep);
-      box-shadow: 0 0 0 3px rgba(156, 122, 62, 0.15)
-    }
-
-    /* ---------- Hero ---------- */
-    .hero {
-      padding: 96px 0 60px;
-      background:
-        radial-gradient(1200px 500px at 85% -10%, rgba(201, 161, 92, 0.10), transparent 60%),
-        var(--ink);
-      border-bottom: 1px solid var(--line-dark);
-    }
-
-    .hero-inner {
-      max-width: 820px
-    }
-
-    .hero h1 {
-      font-size: clamp(34px, 5.4vw, 58px);
-      line-height: 1.06;
-      margin: 22px 0 22px;
-      max-width: 15ch
-    }
-
-    .hero p.lede {
-      font-size: 18px;
-      color: #C7C9C6;
-      max-width: 58ch;
-      margin-bottom: 34px
-    }
-
-    .hero-ctas {
+    .slide-ctas {
       display: flex;
       gap: 14px;
-      flex-wrap: wrap;
-      margin-bottom: 64px
+      flex-wrap: wrap
     }
 
-    /* Signature ticker: PCB trace linking the five platforms */
-    .ledger {
-      border-top: 1px solid var(--line-dark);
-      padding-top: 28px
+    .slide-bg.bg-1 {
+      background:
+        radial-gradient(1100px 600px at 82% 8%, rgba(201, 161, 92, .22), transparent 60%),
+        repeating-linear-gradient(115deg, rgba(201, 161, 92, .05) 0px, rgba(201, 161, 92, .05) 1px, transparent 1px, transparent 58px),
+        linear-gradient(160deg, #171b20 0%, #0f1114 100%);
     }
 
-    .ledger-label {
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: 0.14em;
-      color: var(--muted-dark);
-      text-transform: uppercase;
-      margin-bottom: 18px
+    .slide-bg.bg-2 {
+      background:
+        radial-gradient(900px 500px at 15% 90%, rgba(201, 161, 92, .20), transparent 60%),
+        repeating-linear-gradient(25deg, rgba(255, 255, 255, .04) 0px, rgba(255, 255, 255, .04) 1px, transparent 1px, transparent 46px),
+        linear-gradient(200deg, #1a1e24 0%, #101215 100%);
     }
 
-    .trace-wrap {
+    .slide-bg.bg-3 {
+      background:
+        radial-gradient(1000px 550px at 50% -10%, rgba(201, 161, 92, .20), transparent 60%),
+        repeating-linear-gradient(0deg, rgba(201, 161, 92, .045) 0px, rgba(201, 161, 92, .045) 1px, transparent 1px, transparent 64px),
+        linear-gradient(180deg, #15181d 0%, #0e1013 100%);
+    }
+
+    .slider-controls {
+      position: absolute;
+      z-index: 3;
+      bottom: 28px;
+      right: 28px;
+      display: flex;
+      gap: 10px;
+      align-items: center
+    }
+
+    .slider-dots {
+      display: flex;
+      gap: 8px;
+      margin-right: 10px
+    }
+
+    .slider-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, .35);
+      border: none;
+      cursor: pointer;
+      padding: 0
+    }
+
+    .slider-dot.active {
+      background: var(--brass)
+    }
+
+    .slider-arrow {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, .35);
+      background: rgba(0, 0, 0, .25);
+      color: #fff;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px
+    }
+
+    .slider-arrow:hover {
+      border-color: var(--brass);
+      color: var(--brass-soft)
+    }
+
+    /* ---------- Stat bar (overlaps slider bottom edge, corporate style) ---------- */
+    .stat-bar {
       position: relative;
-      overflow-x: auto;
-      padding-bottom: 6px
+      z-index: 5;
+      margin-top: -64px
     }
 
-    .trace-svg {
-      display: block;
-      min-width: 920px;
-      width: 100%;
-      height: auto
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--ink-2);
+      border: 1px solid var(--line-dark);
+      border-radius: var(--radius);
+      overflow: hidden
     }
 
-    @media (max-width:900px) {
-      .trace-svg {
-        min-width: 760px
+    .stat-cell {
+      padding: 26px 24px;
+      border-right: 1px solid var(--line-dark)
+    }
+
+    .stat-cell:last-child {
+      border-right: none
+    }
+
+    .stat-num {
+      font-family: var(--display);
+      font-size: clamp(26px, 3vw, 34px);
+      font-weight: 700;
+      color: var(--brass-soft)
+    }
+
+    .stat-label {
+      font-family: var(--mono);
+      font-size: 11.5px;
+      letter-spacing: .05em;
+      color: var(--muted-dark);
+      margin-top: 6px
+    }
+
+    @media (max-width:860px) {
+      .stat-grid {
+        grid-template-columns: 1fr 1fr
+      }
+
+      .stat-cell {
+        border-bottom: 1px solid var(--line-dark)
       }
     }
 
-    /* ---------- Section headers ---------- */
+    @media (max-width:520px) {
+      .stat-grid {
+        grid-template-columns: 1fr
+      }
+    }
+
+    /* ---------- Section basics ---------- */
+    .section-pad {
+      padding: 96px 0 88px
+    }
+
+    @media (max-width:700px) {
+      .section-pad {
+        padding: 64px 0
+      }
+    }
+
     .section-head {
-      max-width: 640px;
-      margin-bottom: 48px
+      max-width: 680px;
+      margin-bottom: 44px
     }
 
     .section-head h2 {
-      font-size: clamp(26px, 3.4vw, 38px);
+      font-size: clamp(26px, 3.2vw, 36px);
       margin-top: 14px;
-      line-height: 1.14
+      line-height: 1.15
     }
 
     .section-head p {
@@ -470,56 +566,8 @@
       color: var(--muted-light)
     }
 
-    .section-pad {
-      padding: 88px 0
-    }
-
-    @media (max-width:700px) {
-      .section-pad {
-        padding: 64px 0
-      }
-    }
-
-    /* ---------- Foundational questions grid ---------- */
-    .qa-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1px;
-      background: var(--line-dark);
-      border: 1px solid var(--line-dark)
-    }
-
-    .qa-cell {
-      background: var(--ink);
-      padding: 32px
-    }
-
-    .qa-cell .q {
-      font-family: var(--mono);
-      font-size: 12px;
-      color: var(--brass-soft);
-      letter-spacing: 0.06em;
-      margin-bottom: 12px
-    }
-
-    .qa-cell .a {
-      font-size: 16.5px;
-      color: #DCDDD8
-    }
-
-    .qa-cell .a b {
-      color: #F5F5F1;
-      font-weight: 600
-    }
-
-    @media (max-width:760px) {
-      .qa-grid {
-        grid-template-columns: 1fr
-      }
-    }
-
-    /* ---------- Engineering philosophy ---------- */
-    .principles {
+    /* ---------- 6-card pillar grid (mirrors "Sustainability in Action") ---------- */
+    .pillar-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1px;
@@ -527,254 +575,173 @@
       border: 1px solid var(--line-dark)
     }
 
-    .principle {
+    .pillar-card {
       background: var(--ink);
-      padding: 30px 26px;
-      min-height: 210px;
+      padding: 32px 28px;
       display: flex;
       flex-direction: column;
-      gap: 10px
+      gap: 12px;
+      min-height: 200px
     }
 
-    .principle .code {
+    .pillar-card .n {
       font-family: var(--mono);
       font-size: 11px;
       color: var(--muted-dark);
-      letter-spacing: 0.08em
+      letter-spacing: .08em
     }
 
-    .principle h4 {
-      font-size: 17px
+    .pillar-card h3 {
+      font-size: 18px
     }
 
-    .principle p {
+    .pillar-card p {
       font-size: 14.5px;
-      color: #B9BBB6
+      color: #B9BBB6;
+      flex: 1
     }
 
-    .principle.lead {
-      grid-column: span 1;
-      background: var(--ink-2)
+    .pillar-card a {
+      font-family: var(--mono);
+      font-size: 12.5px;
+      color: var(--brass-soft);
+      margin-top: 4px
+    }
+
+    .pillar-card a:hover {
+      color: #fff
     }
 
     @media (max-width:900px) {
-      .principles {
+      .pillar-grid {
         grid-template-columns: repeat(2, 1fr)
       }
     }
 
     @media (max-width:600px) {
-      .principles {
+      .pillar-grid {
         grid-template-columns: 1fr
       }
     }
 
-    /* ---------- Portfolio ---------- */
-    .portfolio-group {
-      margin-bottom: 56px
-    }
-
-    .portfolio-group:last-child {
-      margin-bottom: 0
-    }
-
-    .group-label {
-      display: flex;
-      align-items: baseline;
-      gap: 12px;
-      margin-bottom: 20px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid var(--line-dark)
-    }
-
-    .group-label .industry {
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--muted-dark)
-    }
-
-    .group-cards {
+    /* ---------- "Our Businesses" style platform grid ---------- */
+    .biz-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(3, 1fr);
       gap: 20px
     }
 
-    .group-cards.single {
-      grid-template-columns: 1fr
-    }
-
-    .p-card {
-      border: 1px solid var(--line-dark);
+    .biz-card {
+      position: relative;
       border-radius: var(--radius);
-      padding: 28px;
-      background: var(--ink-2);
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      border: 1px solid var(--line-dark);
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      transition: border-color .15s ease;
+      justify-content: flex-end
     }
 
-    .p-card:hover {
-      border-color: var(--brass)
+    .biz-card .biz-bg {
+      position: absolute;
+      inset: 0
     }
 
-    .p-card .p-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 12px
+    .biz-card .biz-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(15, 17, 20, 0) 0%, rgba(15, 17, 20, .55) 55%, rgba(15, 17, 20, .95) 100%)
     }
 
-    .p-card h3 {
-      font-size: 20px
+    .biz-card .biz-content {
+      position: relative;
+      z-index: 2;
+      padding: 24px
     }
 
-    .p-card .tag {
+    .biz-tags {
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 10.5px;
+      letter-spacing: .06em;
       color: var(--brass-soft);
-      letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-top: 4px;
-      display: block
+      margin-bottom: 10px
     }
 
-    .p-card p.desc {
-      font-size: 14.5px;
-      color: #C2C4BF
+    .biz-card h3 {
+      font-size: 19px;
+      color: #fff;
+      margin-bottom: 8px
     }
 
-    .p-card ul {
-      list-style: none;
+    .biz-card p {
       font-size: 13.5px;
-      color: #A9ABA5;
-      display: grid;
-      gap: 6px
+      color: #D6D7D2;
+      margin-bottom: 14px
     }
 
-    .p-card ul li::before {
-      content: "— ";
-      color: var(--brass)
+    .biz-card .biz-status {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 3
     }
 
-    .p-card .p-foot {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-top: auto;
-      padding-top: 6px
-    }
-
-    .p-card .p-foot a {
+    .biz-read {
       font-family: var(--mono);
-      font-size: 13px;
+      font-size: 12.5px;
       color: var(--brass-soft);
       display: inline-flex;
       align-items: center;
       gap: 6px
     }
 
-    .p-card .p-foot a:hover {
+    .biz-read:hover {
       color: #fff
     }
 
-    @media (max-width:800px) {
-      .group-cards {
-        grid-template-columns: 1fr
+    .biz-view-all {
+      text-align: center;
+      margin-top: 34px
+    }
+
+    @media (max-width:900px) {
+      .biz-grid {
+        grid-template-columns: repeat(2, 1fr)
       }
     }
 
-    /* ---------- Product detail blocks ---------- */
-    .p-detail {
-      padding: 70px 0;
-      border-top: 1px solid var(--line-dark)
+    @media (max-width:600px) {
+      .biz-grid {
+        grid-template-columns: 1fr
+      }
+
+      .biz-card {
+        aspect-ratio: 4/5
+      }
     }
 
-    .p-detail-inner {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 56px
-    }
-
-    .p-detail-side {
-      position: sticky;
-      top: 96px;
-      align-self: start
-    }
-
-    .p-detail-side .tag {
+    .badge {
       font-family: var(--mono);
-      font-size: 12px;
-      color: var(--brass-soft);
-      letter-spacing: 0.1em;
-      text-transform: uppercase
-    }
-
-    .p-detail-side h3 {
-      font-size: 30px;
-      margin: 10px 0 14px;
-      line-height: 1.15
-    }
-
-    .p-detail-side .status-line {
-      font-family: var(--mono);
-      font-size: 12.5px;
-      color: var(--muted-dark);
-      margin-top: 16px
-    }
-
-    .p-detail-main {
-      display: grid;
-      gap: 28px
-    }
-
-    .d-block h4 {
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: 0.1em;
+      font-size: 10px;
+      letter-spacing: .08em;
       text-transform: uppercase;
-      color: var(--muted-dark);
-      margin-bottom: 10px
+      border: 1px solid rgba(255, 255, 255, .5);
+      color: #fff;
+      padding: 4px 9px;
+      border-radius: 20px;
+      background: rgba(0, 0, 0, .35);
+      backdrop-filter: blur(2px)
     }
 
-    .d-block p {
-      font-size: 15.5px;
-      color: #D2D3CE
-    }
-
-    .d-block ul {
-      list-style: none;
+    /* ---------- Process / "reports" style card row ---------- */
+    .process-row {
       display: grid;
-      gap: 8px;
-      font-size: 15px;
-      color: #D2D3CE
-    }
-
-    .d-block ul li::before {
-      content: "— ";
-      color: var(--brass)
-    }
-
-    @media (max-width:860px) {
-      .p-detail-inner {
-        grid-template-columns: 1fr
-      }
-
-      .p-detail-side {
-        position: static
-      }
-    }
-
-    /* ---------- Industries ---------- */
-    .industry-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 20px
     }
 
-    .i-card {
+    .process-card {
       background: var(--ink-2);
       border: 1px solid var(--line-dark);
       border-radius: var(--radius);
@@ -784,115 +751,73 @@
       gap: 10px
     }
 
-    .i-card h3 {
-      font-size: 18px
-    }
-
-    .i-card p {
-      font-size: 14px;
-      color: #B9BBB6
-    }
-
-    .i-card .i-platform {
+    .process-card .num {
       font-family: var(--mono);
       font-size: 12px;
-      color: var(--brass-soft);
-      margin-top: auto;
-      padding-top: 10px;
-      border-top: 1px solid var(--line-dark)
+      color: var(--brass-deep);
+      background: var(--brass-soft);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%
     }
 
-    @media (max-width:900px) {
-      .industry-grid {
-        grid-template-columns: repeat(2, 1fr)
-      }
+    .process-card h4 {
+      font-size: 16.5px;
+      margin-top: 4px
     }
 
-    @media (max-width:600px) {
-      .industry-grid {
-        grid-template-columns: 1fr
-      }
-    }
-
-    /* ---------- Why Miles (differentiation) ---------- */
-    .why-list {
-      display: grid;
-      gap: 0;
-      border-top: 1px solid var(--line-light)
-    }
-
-    .why-row {
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 24px;
-      padding: 22px 0;
-      border-bottom: 1px solid var(--line-light)
-    }
-
-    .why-row .label {
-      font-family: var(--mono);
-      font-size: 13px;
-      letter-spacing: 0.06em;
-      color: var(--brass-deep)
-    }
-
-    .why-row p {
-      font-size: 15.5px;
-      color: var(--muted-light)
-    }
-
-    @media (max-width:700px) {
-      .why-row {
-        grid-template-columns: 1fr;
-        gap: 6px
-      }
-    }
-
-    /* ---------- Approach (numbered process — legitimate sequence) ---------- */
-    .approach-list {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 20px
-    }
-
-    .approach-item {
-      padding-top: 18px;
-      border-top: 2px solid var(--brass)
-    }
-
-    .approach-item .num {
-      font-family: var(--mono);
-      font-size: 13px;
-      color: var(--brass-soft)
-    }
-
-    .approach-item h4 {
-      font-size: 17px;
-      margin: 10px 0 8px
-    }
-
-    .approach-item p {
-      font-size: 14px;
+    .process-card p {
+      font-size: 13.5px;
       color: #B9BBB6
     }
 
     @media (max-width:900px) {
-      .approach-list {
+      .process-row {
         grid-template-columns: 1fr 1fr
       }
     }
 
     @media (max-width:560px) {
-      .approach-list {
+      .process-row {
         grid-template-columns: 1fr
       }
     }
 
-    /* ---------- Collaboration paths ---------- */
+    /* ---------- Collaboration / "Investor Relations" style CTA block ---------- */
+    .cta-block {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 56px;
+      align-items: center;
+      padding: 56px 0;
+      border-top: 1px solid var(--line-light);
+      border-bottom: 1px solid var(--line-light)
+    }
+
+    .cta-block p {
+      font-size: 16px;
+      color: var(--muted-light);
+      margin-top: 14px
+    }
+
+    .cta-block .btn {
+      margin-top: 20px
+    }
+
+    @media (max-width:860px) {
+      .cta-block {
+        grid-template-columns: 1fr
+      }
+    }
+
     .paths {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 20px
+      gap: 20px;
+      margin-top: 44px
     }
 
     .path-card {
@@ -921,13 +846,83 @@
       margin-top: auto
     }
 
-    @media (max-width:900px) {
+    @media (max-width:860px) {
       .paths {
         grid-template-columns: 1fr
       }
     }
 
-    /* ---------- About / Leadership ---------- */
+    /* ---------- Closing pillar / standard section (mirrors sustainability stat close) ---------- */
+    .standard {
+      padding: 80px 0;
+      background:
+        radial-gradient(900px 500px at 85% 0%, rgba(201, 161, 92, .12), transparent 60%), var(--ink);
+      border-top: 1px solid var(--line-dark);
+    }
+
+    .standard-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 56px;
+      align-items: center
+    }
+
+    .standard h2 {
+      font-size: clamp(24px, 3vw, 32px);
+      margin-bottom: 18px
+    }
+
+    .standard p {
+      color: #C7C9C6;
+      font-size: 16px;
+      margin-bottom: 18px
+    }
+
+    .pillar-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px
+    }
+
+    .pillar-tag {
+      font-family: var(--mono);
+      font-size: 12px;
+      border: 1px solid var(--line-dark);
+      color: var(--brass-soft);
+      padding: 8px 14px;
+      border-radius: 20px
+    }
+
+    .standard-quote {
+      background: var(--ink-2);
+      border: 1px solid var(--line-dark);
+      border-radius: var(--radius);
+      padding: 32px
+    }
+
+    .standard-quote p {
+      font-style: italic;
+      color: #DCDDD8;
+      font-size: 17px;
+      line-height: 1.6
+    }
+
+    .standard-quote .attr {
+      margin-top: 16px;
+      font-family: var(--mono);
+      font-size: 12.5px;
+      color: var(--muted-dark);
+      font-style: normal
+    }
+
+    @media (max-width:860px) {
+      .standard-inner {
+        grid-template-columns: 1fr
+      }
+    }
+
+    /* ---------- About / leadership ---------- */
     .about-grid {
       display: grid;
       grid-template-columns: 1.3fr 1fr;
@@ -973,7 +968,6 @@
       font-family: var(--mono);
       font-size: 12.5px;
       color: var(--brass-soft);
-      letter-spacing: 0.06em;
       margin-top: 4px
     }
 
@@ -1005,7 +999,7 @@
     .contact-line .k {
       font-family: var(--mono);
       font-size: 11px;
-      letter-spacing: 0.1em;
+      letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--muted-dark)
     }
@@ -1039,7 +1033,7 @@
     .field label {
       font-family: var(--mono);
       font-size: 11.5px;
-      letter-spacing: 0.06em;
+      letter-spacing: .06em;
       text-transform: uppercase;
       color: var(--muted-dark)
     }
@@ -1053,7 +1047,7 @@
       color: #EDEEEA;
       padding: 11px 13px;
       font-family: var(--body);
-      font-size: 14.5px;
+      font-size: 14.5px
     }
 
     .field input:focus,
@@ -1099,18 +1093,18 @@
       }
     }
 
-    /* ---------- Footer ---------- */
+    /* ---------- Footer (mirrors logo+social+contact+links+newsletter pattern) ---------- */
     footer {
       background: var(--ink-2);
       border-top: 1px solid var(--line-dark);
       padding: 64px 0 28px
     }
 
-    .footer-grid {
+    .footer-top {
       display: grid;
-      grid-template-columns: 1.4fr 1fr 1fr 1fr;
+      grid-template-columns: 1.2fr 1fr 1fr 1.2fr;
       gap: 36px;
-      margin-bottom: 48px
+      margin-bottom: 44px
     }
 
     .footer-brand .brand-text b {
@@ -1121,13 +1115,13 @@
       font-size: 13.5px;
       color: var(--muted-dark);
       margin-top: 14px;
-      max-width: 32ch
+      max-width: 30ch
     }
 
     .footer-col h5 {
       font-family: var(--mono);
       font-size: 11.5px;
-      letter-spacing: 0.1em;
+      letter-spacing: .1em;
       text-transform: uppercase;
       color: var(--muted-dark);
       margin-bottom: 14px
@@ -1148,6 +1142,43 @@
       color: var(--brass-soft)
     }
 
+    .newsletter {
+      display: flex;
+      gap: 0;
+      border: 1px solid var(--line-dark);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-top: 6px
+    }
+
+    .newsletter input {
+      flex: 1;
+      background: var(--ink);
+      border: none;
+      color: #EDEEEA;
+      padding: 12px 14px;
+      font-family: var(--body);
+      font-size: 13.5px
+    }
+
+    .newsletter input:focus {
+      outline: none
+    }
+
+    .newsletter button {
+      background: var(--brass);
+      color: var(--ink);
+      border: none;
+      padding: 0 18px;
+      font-family: var(--mono);
+      font-size: 12.5px;
+      cursor: pointer
+    }
+
+    .newsletter button:hover {
+      background: var(--brass-soft)
+    }
+
     .footer-bottom {
       border-top: 1px solid var(--line-dark);
       padding-top: 24px;
@@ -1160,14 +1191,14 @@
       color: var(--muted-dark)
     }
 
-    @media (max-width:900px) {
-      .footer-grid {
+    @media (max-width:960px) {
+      .footer-top {
         grid-template-columns: 1fr 1fr
       }
     }
 
     @media (max-width:560px) {
-      .footer-grid {
+      .footer-top {
         grid-template-columns: 1fr
       }
     }
@@ -1177,7 +1208,7 @@
       position: fixed;
       bottom: 22px;
       right: 22px;
-      z-index: 200;
+      z-index: 300;
       display: flex;
       align-items: center;
       gap: 10px;
@@ -1185,10 +1216,9 @@
       color: #fff;
       padding: 13px 16px;
       border-radius: 30px;
-      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, .35);
       font-family: var(--mono);
-      font-size: 13px;
-      letter-spacing: 0.02em;
+      font-size: 13px
     }
 
     .wa-float:hover {
@@ -1199,10 +1229,6 @@
       width: 20px;
       height: 20px;
       flex-shrink: 0
-    }
-
-    .wa-label {
-      white-space: nowrap
     }
 
     @media (max-width:560px) {
@@ -1216,7 +1242,6 @@
       }
     }
 
-    /* ---------- Reveal on scroll ---------- */
     .reveal {
       opacity: 0;
       transform: translateY(14px);
@@ -1228,7 +1253,6 @@
       transform: translateY(0)
     }
 
-    /* ---------- Visually hidden ---------- */
     .vh {
       position: absolute;
       width: 1px;
@@ -1253,10 +1277,11 @@
         <span class="brand-text"><b>MILES</b><span>PLATFORMS GROUP</span></span>
       </a>
       <nav class="primary" id="primaryNav">
-        <a href="#platforms">Platforms</a>
+        <a href="#top">Home</a>
+        <a href="#platforms">Our Platforms</a>
         <a href="#industries">Industries</a>
         <a href="#engineering">Engineering</a>
-        <a href="#company">Company</a>
+        <a href="#company">About Us</a>
         <a href="#contact">Contact</a>
       </nav>
       <div style="display:flex;align-items:center;gap:12px">
@@ -1269,495 +1294,312 @@
 
   <main id="main">
 
-    <!-- HERO -->
-    <section class="hero" id="top">
-      <div class="wrap hero-inner">
-        <span class="eyebrow">Software Engineering &amp; Technology Platforms</span>
-        <h1>Engineering the digital infrastructure behind complex organizations.</h1>
-        <p class="lede">Miles Platforms Group builds secure, scalable technology platforms for education, higher
-          education, healthcare, security, and commerce for organizations whose operations depend on software that
-          behaves correctly, every time.</p>
-        <div class="hero-ctas">
-          <a href="#platforms" class="btn btn-primary">Explore our platforms <span class="btn-arrow">→</span></a>
-          <a href="#contact" class="btn btn-ghost">Work with Miles</a>
+    <!-- HERO SLIDER -->
+    <section id="top">
+      <div class="slider" role="region" aria-roledescription="carousel" aria-label="Miles Platforms Group highlights">
+        <div class="slide active" data-slide="0">
+          <div class="slide-bg bg-1"></div>
+          <div class="slide-scrim"></div>
+          <div class="slide-content">
+            <span class="slide-eyebrow">Software Engineering &amp; Technology Platforms</span>
+            <h1>Engineering the digital infrastructure behind complex organizations.</h1>
+            <p>Miles Platforms Group builds secure, scalable technology platforms for education, higher education,
+              healthcare, security, and commerce — for organizations whose operations depend on software that behaves
+              correctly, every time.</p>
+            <div class="slide-ctas">
+              <a href="#platforms" class="btn btn-primary">Explore our platforms <span class="btn-arrow">→</span></a>
+              <a href="#contact" class="btn btn-ghost">Work with Miles</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-slide="1">
+          <div class="slide-bg bg-2"></div>
+          <div class="slide-scrim"></div>
+          <div class="slide-content">
+            <span class="slide-eyebrow">Technology Portfolio</span>
+            <h1>Five platforms. One engineering discipline.</h1>
+            <p>SchoolDesk, Sovereign LMS, HealthOS, Secure Vision System, and InstaConnect — each currently in
+              development, each built against the same standard for security and correctness.</p>
+            <div class="slide-ctas">
+              <a href="#platforms" class="btn btn-primary">See the portfolio <span class="btn-arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="slide" data-slide="2">
+          <div class="slide-bg bg-3"></div>
+          <div class="slide-scrim"></div>
+          <div class="slide-content">
+            <span class="slide-eyebrow">Working With Miles</span>
+            <h1>We execute correctly, without wasting time.</h1>
+            <p>Whether you want to explore a platform, commission custom infrastructure, or explore a partnership — we'd
+              rather show you exactly where things stand than oversell them.</p>
+            <div class="slide-ctas">
+              <a href="#contact" class="btn btn-primary">Start a conversation <span class="btn-arrow">→</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-arrow" id="prevSlide" aria-label="Previous slide">‹</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-arrow" id="nextSlide" aria-label="Next slide">›</button>
         </div>
       </div>
-      <div class="wrap ledger">
-        <div class="ledger-label">Technology portfolio — current status</div>
-        <div class="trace-wrap" role="img"
-          aria-label="Five platforms in the Miles Platforms Group portfolio, all currently in development: Miles SchoolDesk for K-12 education, Miles Sovereign LMS for higher education, Miles HealthOS for healthcare, Miles Secure Vision System for security, and Miles InstaConnect for commerce.">
-          <svg class="trace-svg" viewBox="0 0 920 150" fill="none" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true">
-            <path
-              d="M20 75 H120 M120 75 C 160 75, 160 30, 200 30 H 320 M320 30 C 360 30, 360 75, 400 75 H 520 M520 75 C 560 75, 560 118, 600 118 H 720 M720 118 C 760 118, 760 75, 800 75 H 900"
-              stroke="#C9A15C" stroke-opacity="0.45" stroke-width="1.5" />
-            <g font-family="IBM Plex Mono, monospace">
-              <circle cx="120" cy="75" r="5" fill="#C9A15C" />
-              <text x="120" y="55" text-anchor="middle" font-size="11" fill="#D9BC85">SCHOOLDESK</text>
-              <text x="120" y="98" text-anchor="middle" font-size="9.5" fill="#8891A0">K–12 · IN DEVELOPMENT</text>
 
-              <circle cx="320" cy="30" r="5" fill="#C9A15C" />
-              <text x="320" y="18" text-anchor="middle" font-size="11" fill="#D9BC85">SOVEREIGN LMS</text>
-              <text x="320" y="118" text-anchor="middle" font-size="9.5" fill="#8891A0">HIGHER ED · IN
-                DEVELOPMENT</text>
-
-              <circle cx="520" cy="75" r="5" fill="#C9A15C" />
-              <text x="520" y="55" text-anchor="middle" font-size="11" fill="#D9BC85">HEALTHOS</text>
-              <text x="520" y="98" text-anchor="middle" font-size="9.5" fill="#8891A0">HEALTHCARE · IN
-                DEVELOPMENT</text>
-
-              <circle cx="720" cy="118" r="5" fill="#C9A15C" />
-              <text x="720" y="140" text-anchor="middle" font-size="9.5" fill="#8891A0">SECURITY · IN DEVELOPMENT</text>
-              <text x="720" y="105" text-anchor="middle" font-size="11" fill="#D9BC85">MSVS</text>
-
-              <circle cx="900" cy="75" r="5" fill="#C9A15C" />
-              <text x="874" y="55" text-anchor="middle" font-size="11" fill="#D9BC85">INSTACONNECT</text>
-              <text x="874" y="98" text-anchor="middle" font-size="9.5" fill="#8891A0">COMMERCE · IN DEVELOPMENT</text>
-            </g>
-          </svg>
+      <div class="wrap stat-bar">
+        <div class="stat-grid reveal">
+          <div class="stat-cell">
+            <div class="stat-num">5</div>
+            <div class="stat-label">PLATFORMS IN DEVELOPMENT</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num">5</div>
+            <div class="stat-label">INDUSTRIES SERVED</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num">7</div>
+            <div class="stat-label">ENGINEERING PRINCIPLES</div>
+          </div>
+          <div class="stat-cell">
+            <div class="stat-num">0</div>
+            <div class="stat-label">FABRICATED CLAIMS OF TRACTION</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- WHAT WE DO -->
-    <section class="section-pad" id="about-brief">
+    <!-- PILLAR GRID (mirrors "Sustainability in Action") -->
+    <section class="section-pad" id="why" style="padding-top:64px">
       <div class="wrap">
         <div class="section-head reveal">
-          <span class="eyebrow">What We Build</span>
-          <h2>One engineering discipline, applied to industries where software failure is not an option.</h2>
+          <span class="eyebrow">Why Miles</span>
+          <h2>One engineering discipline. Not a generic agency, not an AI product shop.</h2>
         </div>
-        <div class="qa-grid reveal">
-          <div class="qa-cell">
-            <div class="q">WHAT IS MILES PLATFORMS GROUP?</div>
-            <div class="a">A <b>technology company engineering digital platforms and software infrastructure</b> not a
-              design studio, and not an AI product shop.</div>
+        <div class="pillar-grid reveal">
+          <div class="pillar-card">
+            <span class="n">01</span>
+            <h3>High-Integrity Engineering</h3>
+            <p>Systems built to behave predictably under clearly defined conditions — every time, not most of the time.
+            </p>
+            <a href="#engineering">Read more →</a>
           </div>
-          <div class="qa-cell">
-            <div class="q">WHAT DOES MILES BUILD?</div>
-            <div class="a">Domain-specific platforms for <b>education, higher education, healthcare, security, and
-                commerce</b> built on one shared architectural discipline.</div>
+          <div class="pillar-card">
+            <span class="n">02</span>
+            <h3>Strong Isolation &amp; Security</h3>
+            <p>Security lives in system boundaries and authorization — not bolted on as a final layer before launch.</p>
+            <a href="#engineering">Read more →</a>
           </div>
-          <div class="qa-cell">
-            <div class="q">WHY DOES MILES EXIST?</div>
-            <div class="a">To build <b>dependable digital infrastructure</b> for organizations whose day-to-day
-              operations depend on software working correctly.</div>
+          <div class="pillar-card">
+            <span class="n">03</span>
+            <h3>Auditability &amp; Determinism</h3>
+            <p>Important actions are traceable, and critical operations produce clearly defined, predictable outcomes.
+            </p>
+            <a href="#engineering">Read more →</a>
           </div>
-          <div class="qa-cell">
-            <div class="q">WHY SHOULD A CLIENT CARE?</div>
-            <div class="a">Because Miles treats complex software as <b>infrastructure</b> requiring security,
-              reliability, correctness, scalability, and long-term maintainability, not just features.</div>
+          <div class="pillar-card">
+            <span class="n">04</span>
+            <h3>Domain Expertise Across Industries</h3>
+            <p>Education, higher education, healthcare, security, and commerce — one discipline, applied where
+              correctness genuinely matters.</p>
+            <a href="#industries">Read more →</a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ENGINEERING PHILOSOPHY -->
-    <section class="section-pad" id="engineering" style="border-top:1px solid var(--line-dark)">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="eyebrow">Engineering Philosophy</span>
-          <h2>Seven principles that govern how every Miles platform is built.</h2>
-          <p>These aren't slogans. They are the constraints every product in our portfolio is designed against.</p>
-        </div>
-        <div class="principles reveal">
-          <div class="principle lead">
-            <span class="code">PRINCIPLE / 01</span>
-            <h4>High-Integrity Engineering</h4>
-            <p>Systems should behave predictably under clearly defined conditions not most of the time, but every time
-              those conditions hold.</p>
+          <div class="pillar-card">
+            <span class="n">05</span>
+            <h3>We Execute Correctly, Not Just Fast</h3>
+            <p>We don't try to execute our projects faster — we execute correctly, without wasting time.</p>
+            <a href="#engineering">Read more →</a>
           </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 02</span>
-            <h4>Logical Determinism</h4>
-            <p>Critical operations have clearly defined, predictable outcomes the same input produces the same result,
-              traceably.</p>
-          </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 03</span>
-            <h4>Strong Isolation</h4>
-            <p>In multi-tenant systems, one organization must never be able to see, touch, or affect another's data.</p>
-          </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 04</span>
-            <h4>Auditability</h4>
-            <p>Important actions inside a system should be traceable who did what, when, and under what authority.</p>
-          </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 05</span>
-            <h4>Resilience</h4>
-            <p>Systems are designed with failure in mind, not as an afterthought components degrade gracefully rather
-              than catastrophically.</p>
-          </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 06</span>
-            <h4>Security by Architecture</h4>
-            <p>Security lives in system boundaries, authorization, and validation not bolted on as a final layer before
-              launch.</p>
-          </div>
-          <div class="principle">
-            <span class="code">PRINCIPLE / 07</span>
-            <h4>Explicit Trust Boundaries</h4>
-            <p>Every system clearly defines what is trusted, what is not, and what happens at the line between them.</p>
+          <div class="pillar-card">
+            <span class="n">06</span>
+            <h3>Honest, Evidence-Led Growth</h3>
+            <p>Every product on this site is labeled exactly as what it is today — no overstated claims, no invented
+              traction.</p>
+            <a href="#company">Read more →</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PORTFOLIO -->
+    <!-- OUR PLATFORMS (mirrors "Our Businesses" imagery grid) -->
     <section class="section-pad" id="platforms" style="border-top:1px solid var(--line-dark)">
       <div class="wrap">
         <div class="section-head reveal">
-          <span class="eyebrow">Platforms We're Building</span>
-          <h2>Five platforms. One engineering discipline. Currently in active development.</h2>
-          <p>Every product below is part of our technology portfolio and engineering roadmap none has shipped
-            commercially yet. We'd rather tell you exactly where each one stands than overstate it.</p>
+          <span class="eyebrow">Our Platforms</span>
+          <h2>As a growing technology portfolio, our interest across five industries reflects one engineering
+            discipline.</h2>
+          <p>Every product below is part of our technology portfolio and engineering roadmap — none has shipped
+            commercially yet.</p>
         </div>
 
-        <div class="reveal">
-          <!-- EDUCATION GROUP -->
-          <div class="portfolio-group">
-            <div class="group-label"><span class="industry">Education</span></div>
-            <div class="group-cards">
-              <article class="p-card">
-                <div class="p-top">
-                  <div>
-                    <h3>Miles SchoolDesk</h3><span class="tag">K–12 Education</span>
-                  </div>
-                  <span class="badge">In Development</span>
-                </div>
-                <p class="desc">Digital infrastructure for modern K–12 school operations a multi-tenant school
-                  management platform built for reliable, auditable, day-to-day operations.</p>
-                <ul>
-                  <li>Students, admissions &amp; attendance</li>
-                  <li>Academics, assessments &amp; fees</li>
-                  <li>Guardian communication</li>
-                  <li>Offline-capable, auditable workflows</li>
-                </ul>
-                <div class="p-foot"><a href="#schooldesk">Explore platform →</a></div>
-              </article>
-              <article class="p-card">
-                <div class="p-top">
-                  <div>
-                    <h3>Miles Sovereign LMS</h3><span class="tag">Universities &amp; Higher Education</span>
-                  </div>
-                  <span class="badge">In Development</span>
-                </div>
-                <p class="desc">A secure digital foundation for modern universities and higher-education institutions
-                  distinct from SchoolDesk, and built for institutional scale.</p>
-                <ul>
-                  <li>Students, faculty &amp; academic programs</li>
-                  <li>Learning management, grading &amp; records</li>
-                  <li>Institutional finance &amp; permissions</li>
-                  <li>Cryptographic integrity, strong authorization</li>
-                </ul>
-                <div class="p-foot"><a href="#sovereign">Explore platform →</a></div>
-              </article>
+        <div class="biz-grid reveal">
+          <article class="biz-card">
+            <div class="biz-bg slide-bg bg-1"></div>
+            <div class="biz-scrim"></div>
+            <span class="badge biz-status">In Development</span>
+            <div class="biz-content">
+              <div class="biz-tags">K–12 Education</div>
+              <h3>Miles SchoolDesk</h3>
+              <p>Digital infrastructure for modern K–12 school operations.</p>
+              <a href="#schooldesk" class="biz-read">Read more →</a>
             </div>
-          </div>
+          </article>
 
-          <!-- HEALTHCARE -->
-          <div class="portfolio-group">
-            <div class="group-label"><span class="industry">Healthcare</span></div>
-            <div class="group-cards single">
-              <article class="p-card">
-                <div class="p-top">
-                  <div>
-                    <h3>Miles HealthOS</h3><span class="tag">Healthcare</span>
-                  </div>
-                  <span class="badge">In Development</span>
-                </div>
-                <p class="desc">Building secure digital infrastructure for modern healthcare operations unifying
-                  patient care, clinical workflows, records, and administration under one high-integrity platform.</p>
-                <ul>
-                  <li>Patient care &amp; clinical workflows</li>
-                  <li>Health records &amp; administration</li>
-                  <li>Strong data protection &amp; interoperability</li>
-                  <li>AI as an assistive capability, not a clinical decision-maker</li>
-                </ul>
-                <div class="p-foot"><a href="#healthos">Explore platform →</a></div>
-              </article>
+          <article class="biz-card">
+            <div class="biz-bg slide-bg bg-2"></div>
+            <div class="biz-scrim"></div>
+            <span class="badge biz-status">In Development</span>
+            <div class="biz-content">
+              <div class="biz-tags">Higher Education</div>
+              <h3>Miles Sovereign LMS</h3>
+              <p>A secure digital foundation for universities and higher education.</p>
+              <a href="#sovereign" class="biz-read">Read more →</a>
             </div>
-          </div>
+          </article>
 
-          <!-- SECURITY -->
-          <div class="portfolio-group">
-            <div class="group-label"><span class="industry">Security</span></div>
-            <div class="group-cards single">
-              <article class="p-card">
-                <div class="p-top">
-                  <div>
-                    <h3>Miles Secure Vision System</h3><span class="tag">Security</span>
-                  </div>
-                  <span class="badge">In Development</span>
-                </div>
-                <p class="desc">Turning camera infrastructure into trusted situational awareness transforming existing
-                  camera networks into intelligent, auditable systems.</p>
-                <ul>
-                  <li>Threat detection &amp; event validation</li>
-                  <li>Deterministic policies, trusted alerts</li>
-                  <li>Tamper-evident evidence</li>
-                  <li>Multi-tenant isolation</li>
-                </ul>
-                <div class="p-foot"><a href="#msvs">Explore platform →</a></div>
-              </article>
+          <article class="biz-card">
+            <div class="biz-bg slide-bg bg-3"></div>
+            <div class="biz-scrim"></div>
+            <span class="badge biz-status">In Development</span>
+            <div class="biz-content">
+              <div class="biz-tags">Healthcare</div>
+              <h3>Miles HealthOS</h3>
+              <p>Secure digital infrastructure for modern healthcare operations.</p>
+              <a href="#healthos" class="biz-read">Read more →</a>
             </div>
-          </div>
+          </article>
 
-          <!-- COMMERCE -->
-          <div class="portfolio-group">
-            <div class="group-label"><span class="industry">Commerce</span></div>
-            <div class="group-cards single">
-              <article class="p-card">
-                <div class="p-top">
-                  <div>
-                    <h3>Miles InstaConnect</h3><span class="tag">Commerce</span>
-                  </div>
-                  <span class="badge">In Development</span>
-                </div>
-                <p class="desc">Commerce infrastructure for businesses building their digital presence a multi-tenant
-                  marketplace giving each business its own branded storefront.</p>
-                <ul>
-                  <li>Products, inventory &amp; orders</li>
-                  <li>Payments &amp; branded storefronts</li>
-                  <li>Shared marketplace infrastructure</li>
-                  <li>Platform-level security &amp; governance</li>
-                </ul>
-                <div class="p-foot"><a href="#instaconnect">Explore platform →</a></div>
-              </article>
+          <article class="biz-card">
+            <div class="biz-bg slide-bg bg-1"></div>
+            <div class="biz-scrim"></div>
+            <span class="badge biz-status">In Development</span>
+            <div class="biz-content">
+              <div class="biz-tags">Security</div>
+              <h3>Miles Secure Vision System</h3>
+              <p>Turning camera infrastructure into trusted situational awareness.</p>
+              <a href="#msvs" class="biz-read">Read more →</a>
             </div>
-          </div>
+          </article>
+
+          <article class="biz-card">
+            <div class="biz-bg slide-bg bg-2"></div>
+            <div class="biz-scrim"></div>
+            <span class="badge biz-status">In Development</span>
+            <div class="biz-content">
+              <div class="biz-tags">Commerce</div>
+              <h3>Miles InstaConnect</h3>
+              <p>Commerce infrastructure for businesses building their digital presence.</p>
+              <a href="#instaconnect" class="biz-read">Read more →</a>
+            </div>
+          </article>
+
+          <article class="biz-card" style="align-items:center;justify-content:center;display:flex">
+            <div class="biz-bg slide-bg bg-3"></div>
+            <div class="biz-scrim"></div>
+            <div class="biz-content" style="text-align:center;padding-bottom:0">
+              <p style="margin-bottom:16px">See the full technology portfolio in detail.</p>
+              <a href="#platform-detail" class="btn btn-ghost">View All Platforms →</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <!-- PRODUCT DETAIL: SCHOOLDESK -->
-    <section class="p-detail" id="schooldesk">
-      <div class="wrap p-detail-inner">
-        <div class="p-detail-side reveal">
-          <span class="tag">K–12 Education</span>
-          <h3>Miles SchoolDesk</h3>
-          <p class="muted">Digital infrastructure for modern K–12 school operations.</p>
-          <div class="status-line">STATUS IN DEVELOPMENT</div>
-          <div style="margin-top:22px"><a href="#contact" class="btn btn-ghost">Discuss this platform →</a></div>
+    <!-- PLATFORM DETAIL BLOCKS -->
+    <section class="section-pad on-paper" id="platform-detail">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Platform Detail</span>
+          <h2>Where each platform stands today.</h2>
         </div>
-        <div class="p-detail-main reveal">
-          <div class="d-block">
-            <h4>Purpose</h4>
-            <p>Miles SchoolDesk is a multi-tenant K–12 school management platform designed to give individual schools a
-              secure digital environment to run their daily operations, under their own institutional branding.</p>
-          </div>
-          <div class="d-block">
-            <h4>Problem Being Addressed</h4>
-            <p>Schools coordinate students, staff, families, and finances across systems that often don't talk to each
-              other. SchoolDesk is designed to bring those workflows into one auditable, reliable platform.</p>
-          </div>
-          <div class="d-block">
-            <h4>Core Capabilities</h4>
-            <ul>
-              <li>Student records, admissions &amp; attendance</li>
-              <li>Academics, assessments &amp; grading</li>
-              <li>Fees &amp; financial tracking</li>
-              <li>Guardian access &amp; communication</li>
-              <li>School administration tools</li>
-            </ul>
-          </div>
-          <div class="d-block">
-            <h4>Architecture Principles</h4>
-            <p>Built for scalable, multi-tenant operation with institutional branding per school, auditable workflows,
-              and offline-capable operation where connectivity is unreliable.</p>
-          </div>
-          <div class="d-block">
-            <h4>Intended Users</h4>
-            <p>K–12 school administrators, teachers, guardians, and students within a single institution's digital
-              environment.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- PRODUCT DETAIL: SOVEREIGN LMS -->
-    <section class="p-detail" id="sovereign">
-      <div class="wrap p-detail-inner">
-        <div class="p-detail-side reveal">
-          <span class="tag">Higher Education</span>
-          <h3>Miles Sovereign LMS</h3>
-          <p class="muted">A secure digital foundation for modern universities and higher education.</p>
-          <div class="status-line">STATUS IN DEVELOPMENT</div>
-          <div style="margin-top:22px"><a href="#contact" class="btn btn-ghost">Discuss this platform →</a></div>
-        </div>
-        <div class="p-detail-main reveal">
-          <div class="d-block">
-            <h4>Purpose</h4>
-            <p>Miles Sovereign LMS is a secure, multi-tenant learning and institutional management platform designed
-              specifically for universities and higher-education institutions not a K–12 product.</p>
+        <div style="display:grid;gap:64px">
+          <div class="reveal" id="schooldesk">
+            <span class="eyebrow">K–12 Education</span>
+            <h3 style="margin:10px 0 16px;font-size:24px">Miles SchoolDesk</h3>
+            <p class="muted" style="margin-bottom:18px">Digital infrastructure for modern K–12 school operations.</p>
+            <p style="margin-bottom:14px">Miles SchoolDesk is a multi-tenant K–12 school management platform designed to
+              give individual schools a secure digital environment to run their daily operations, under their own
+              institutional branding. Schools coordinate students, staff, families, and finances across systems that
+              often don't talk to each other — SchoolDesk is designed to bring those workflows into one auditable,
+              reliable platform.</p>
+            <p style="margin-bottom:14px"><b>Core capabilities:</b> student records, admissions &amp; attendance;
+              academics, assessments &amp; grading; fees &amp; financial tracking; guardian access &amp; communication;
+              school administration tools.</p>
+            <p style="margin-bottom:0"><b>Intended users:</b> K–12 school administrators, teachers, guardians, and
+              students within a single institution's digital environment. <b>Status:</b> In Development.</p>
           </div>
-          <div class="d-block">
-            <h4>Problem Being Addressed</h4>
-            <p>Universities manage academic, administrative, and financial operations at a scale and complexity that
-              K–12 tools were never built for. Sovereign LMS is designed around institutional scale from the ground up.
-            </p>
-          </div>
-          <div class="d-block">
-            <h4>Core Capabilities</h4>
-            <ul>
-              <li>Students, faculty &amp; academic programs</li>
-              <li>Learning management &amp; assessments</li>
-              <li>Admissions, attendance &amp; academic records</li>
-              <li>Institutional finance &amp; permissions</li>
-              <li>Institutional administration &amp; workflows</li>
-            </ul>
-          </div>
-          <div class="d-block">
-            <h4>Architecture &amp; Integrity Principles</h4>
-            <p>Emphasizes strong tenant isolation between institutions, deterministic operations, auditability, offline
-              capability, cryptographic integrity, and strong authorization over institutional data.</p>
-          </div>
-          <div class="d-block">
-            <h4>Intended Users</h4>
-            <p>University administrators, faculty, students, and institutional staff operating within a clearly isolated
-              instance of the platform.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- PRODUCT DETAIL: HEALTHOS -->
-    <section class="p-detail" id="healthos">
-      <div class="wrap p-detail-inner">
-        <div class="p-detail-side reveal">
-          <span class="tag">Healthcare</span>
-          <h3>Miles HealthOS</h3>
-          <p class="muted">Building secure digital infrastructure for modern healthcare operations.</p>
-          <div class="status-line">STATUS — IN DEVELOPMENT</div>
-          <div style="margin-top:22px"><a href="#contact" class="btn btn-ghost">Discuss this platform →</a></div>
-        </div>
-        <div class="p-detail-main reveal">
-          <div class="d-block">
-            <h4>Purpose</h4>
-            <p>Miles HealthOS is a high-integrity, globally scalable healthcare technology platform designed to unify
-              patient care, clinical workflows, health records, administration, and healthcare operations.</p>
+          <div class="reveal" id="sovereign">
+            <span class="eyebrow">Higher Education</span>
+            <h3 style="margin:10px 0 16px;font-size:24px">Miles Sovereign LMS</h3>
+            <p class="muted" style="margin-bottom:18px">A secure digital foundation for modern universities and higher
+              education.</p>
+            <p style="margin-bottom:14px">Miles Sovereign LMS is a secure, multi-tenant learning and institutional
+              management platform designed specifically for universities and higher-education institutions — not a K–12
+              product. Universities manage academic, administrative, and financial operations at a scale and complexity
+              that K–12 tools were never built for; Sovereign LMS is designed around institutional scale from the ground
+              up.</p>
+            <p style="margin-bottom:14px"><b>Core capabilities:</b> students, faculty &amp; academic programs; learning
+              management &amp; assessments; admissions, attendance &amp; academic records; institutional finance &amp;
+              permissions; institutional administration &amp; workflows.</p>
+            <p style="margin-bottom:0"><b>Intended users:</b> university administrators, faculty, students, and
+              institutional staff, each operating within a clearly isolated instance of the platform. <b>Status:</b> In
+              Development.</p>
           </div>
-          <div class="d-block">
-            <h4>Problem Being Addressed</h4>
-            <p>Healthcare operations depend on information moving reliably and securely between people and systems.
-              HealthOS is designed around that dependency, not around any single feature.</p>
-          </div>
-          <div class="d-block">
-            <h4>Core Capabilities</h4>
-            <ul>
-              <li>Patient care &amp; clinical workflows</li>
-              <li>Health records management</li>
-              <li>Healthcare administration &amp; operations</li>
-              <li>Security &amp; interoperability</li>
-            </ul>
-          </div>
-          <div class="d-block">
-            <h4>Architecture &amp; Integrity Principles</h4>
-            <p>Emphasizes strong data protection, interoperability, auditability, deterministic system behavior, and
-              resilient infrastructure. AI is intended as an assistive capability only never an autonomous clinical
+
+          <div class="reveal" id="healthos">
+            <span class="eyebrow">Healthcare</span>
+            <h3 style="margin:10px 0 16px;font-size:24px">Miles HealthOS</h3>
+            <p class="muted" style="margin-bottom:18px">Building secure digital infrastructure for modern healthcare
+              operations.</p>
+            <p style="margin-bottom:14px">Miles HealthOS is a high-integrity, globally scalable healthcare technology
+              platform designed to unify patient care, clinical workflows, health records, administration, and
+              healthcare operations. AI is intended as an assistive capability only — never an autonomous clinical
               decision-maker. Miles HealthOS does not claim medical certification, regulatory approval, clinical
               validation, or diagnostic accuracy at this stage.</p>
+            <p style="margin-bottom:14px"><b>Core capabilities:</b> patient care &amp; clinical workflows; health
+              records management; healthcare administration &amp; operations; security &amp; interoperability.</p>
+            <p style="margin-bottom:0"><b>Intended users:</b> healthcare organizations and the clinical and
+              administrative staff who run their day-to-day operations. <b>Status:</b> In Development.</p>
           </div>
-          <div class="d-block">
-            <h4>Intended Users</h4>
-            <p>Healthcare organizations and the clinical and administrative staff who run their day-to-day operations.
+
+          <div class="reveal" id="msvs">
+            <span class="eyebrow">Security</span>
+            <h3 style="margin:10px 0 16px;font-size:24px">Miles Secure Vision System</h3>
+            <p class="muted" style="margin-bottom:18px">Turning camera infrastructure into trusted situational
+              awareness.</p>
+            <p style="margin-bottom:14px">Miles Secure Vision System (MSVS) is a high-integrity security platform
+              designed to transform camera networks into intelligent situational-awareness systems. MSVS does not claim
+              guaranteed crime prevention, perfect detection, zero false positives, or any government deployment unless
+              such claims become independently verifiable.</p>
+            <p style="margin-bottom:14px"><b>Core capabilities:</b> threat detection &amp; event validation;
+              deterministic policies &amp; trusted alerts; tamper-evident evidence handling; multi-tenant isolation.</p>
+            <p style="margin-bottom:0"><b>Intended users:</b> security operations teams and organizations responsible
+              for monitoring physical premises. <b>Status:</b> In Development.</p>
+          </div>
+
+          <div class="reveal" id="instaconnect">
+            <span class="eyebrow">Commerce</span>
+            <h3 style="margin:10px 0 16px;font-size:24px">Miles InstaConnect</h3>
+            <p class="muted" style="margin-bottom:18px">Commerce infrastructure for businesses building their digital
+              presence.</p>
+            <p style="margin-bottom:14px">Miles InstaConnect is a multi-tenant commerce and marketplace platform that
+              gives businesses their own branded digital storefront while connecting them to shared marketplace
+              infrastructure. Miles Platforms Group provides the underlying platform infrastructure, security, tenant
+              isolation, subscription infrastructure, and platform governance beneath each business's storefront.</p>
+            <p style="margin-bottom:14px"><b>Core capabilities:</b> products, inventory &amp; orders; customer &amp;
+              payment management; independent business branding; shared, governed marketplace infrastructure.</p>
+            <p style="margin-bottom:0"><b>Intended users:</b> businesses seeking a branded digital storefront, and their
+              customers. Registration and transaction capability will be announced when the platform is available.
+              <b>Status:</b> In Development.
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PRODUCT DETAIL: MSVS -->
-    <section class="p-detail" id="msvs">
-      <div class="wrap p-detail-inner">
-        <div class="p-detail-side reveal">
-          <span class="tag">Security</span>
-          <h3>Miles Secure Vision System</h3>
-          <p class="muted">Turning camera infrastructure into trusted situational awareness.</p>
-          <div class="status-line">STATUS — IN DEVELOPMENT</div>
-          <div style="margin-top:22px"><a href="#contact" class="btn btn-ghost">Discuss this platform →</a></div>
-        </div>
-        <div class="p-detail-main reveal">
-          <div class="d-block">
-            <h4>Purpose</h4>
-            <p>Miles Secure Vision System (MSVS) is a high-integrity security platform designed to transform camera
-              networks into intelligent situational-awareness systems.</p>
-          </div>
-          <div class="d-block">
-            <h4>Problem Being Addressed</h4>
-            <p>Camera networks generate footage; they rarely generate trustworthy, actionable awareness. MSVS is
-              designed to close that gap through validated events rather than raw feeds alone.</p>
-          </div>
-          <div class="d-block">
-            <h4>Core Capabilities</h4>
-            <ul>
-              <li>Threat detection &amp; event validation</li>
-              <li>Deterministic policies &amp; trusted alerts</li>
-              <li>Tamper-evident evidence handling</li>
-              <li>Multi-tenant isolation</li>
-            </ul>
-          </div>
-          <div class="d-block">
-            <h4>Architecture &amp; Integrity Principles</h4>
-            <p>Built around auditability and deterministic policy enforcement. MSVS does not claim guaranteed crime
-              prevention, perfect detection, zero false positives, or any government deployment unless such claims
-              become independently verifiable.</p>
-          </div>
-          <div class="d-block">
-            <h4>Intended Users</h4>
-            <p>Security operations teams and organizations responsible for monitoring physical premises.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PRODUCT DETAIL: INSTACONNECT -->
-    <section class="p-detail" id="instaconnect">
-      <div class="wrap p-detail-inner">
-        <div class="p-detail-side reveal">
-          <span class="tag">Commerce</span>
-          <h3>Miles InstaConnect</h3>
-          <p class="muted">Commerce infrastructure for businesses building their digital presence.</p>
-          <div class="status-line">STATUS — IN DEVELOPMENT</div>
-          <div style="margin-top:22px"><a href="#contact" class="btn btn-ghost">Discuss this platform →</a></div>
-        </div>
-        <div class="p-detail-main reveal">
-          <div class="d-block">
-            <h4>Purpose</h4>
-            <p>Miles InstaConnect is a multi-tenant commerce and marketplace platform that gives businesses their own
-              branded digital storefront while connecting them to shared marketplace infrastructure.</p>
-          </div>
-          <div class="d-block">
-            <h4>Problem Being Addressed</h4>
-            <p>Small and mid-sized businesses need a real digital storefront without building commerce infrastructure
-              from scratch. InstaConnect is designed to provide that infrastructure while each business keeps its own
-              brand.</p>
-          </div>
-          <div class="d-block">
-            <h4>Core Capabilities</h4>
-            <ul>
-              <li>Products, inventory &amp; orders</li>
-              <li>Customer &amp; payment management</li>
-              <li>Independent business branding</li>
-              <li>Shared, governed marketplace infrastructure</li>
-            </ul>
-          </div>
-          <div class="d-block">
-            <h4>Architecture Principles</h4>
-            <p>Miles Platforms Group provides the underlying platform infrastructure, security, tenant isolation,
-              subscription infrastructure, and platform governance beneath each business's storefront.</p>
-          </div>
-          <div class="d-block">
-            <h4>Intended Users</h4>
-            <p>Businesses seeking a branded digital storefront, and their customers. Registration and transaction
-              capability will be announced when the platform is available.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- INDUSTRIES -->
-    <section class="section-pad on-paper" id="industries">
+    <section class="section-pad" id="industries" style="border-top:1px solid var(--line-dark)">
       <div class="wrap">
         <div class="section-head reveal">
           <span class="eyebrow">Industries</span>
@@ -1765,156 +1607,176 @@
           <p>Different operations, same underlying requirement: software that behaves correctly and can be trusted with
             what runs on it.</p>
         </div>
-        <div class="industry-grid reveal">
-          <div class="i-card">
-            <h3>K–12 Education</h3>
-            <p>Schools coordinate students, families, and staff across systems that rarely talk to each other, with data
-              that needs to stay accurate and private.</p>
-            <div class="i-platform">Platform → Miles SchoolDesk</div>
+        <div class="process-row reveal" style="grid-template-columns:repeat(5,1fr)">
+          <div class="process-card">
+            <h4>K–12 Education</h4>
+            <p>Schools coordinate students, families, and staff across systems that rarely talk to each other.</p>
           </div>
-          <div class="i-card">
-            <h3>Higher Education</h3>
-            <p>Universities run academic, administrative, and financial operations at institutional scale, where
-              isolation between departments and data integrity both matter.</p>
-            <div class="i-platform">Platform → Miles Sovereign LMS</div>
+          <div class="process-card">
+            <h4>Higher Education</h4>
+            <p>Universities run operations at institutional scale, where isolation and data integrity both matter.</p>
           </div>
-          <div class="i-card">
-            <h3>Healthcare</h3>
-            <p>Healthcare organizations depend on clinical and administrative information moving reliably and securely
-              between people and systems.</p>
-            <div class="i-platform">Platform → Miles HealthOS</div>
-          </div>
-          <div class="i-card">
-            <h3>Security</h3>
-            <p>Security teams need situational awareness they can trust and act on not just more footage to review
-              after the fact.</p>
-            <div class="i-platform">Platform → Miles Secure Vision System</div>
-          </div>
-          <div class="i-card">
-            <h3>Commerce</h3>
-            <p>Businesses need a real digital storefront and reliable commerce operations, without building
-              infrastructure from scratch.</p>
-            <div class="i-platform">Platform → Miles InstaConnect</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- WHY MILES / DIFFERENTIATION -->
-    <section class="section-pad" style="border-top:1px solid var(--line-dark)">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="eyebrow">Why Miles</span>
-          <h2>Not a generic agency. Not an AI product shop. A platforms company.</h2>
-        </div>
-        <div class="why-list reveal" style="border-top:1px solid var(--line-dark)">
-          <div class="why-row" style="border-color:var(--line-dark)">
-            <div class="label">VS. GENERIC SOFTWARE AGENCIES</div>
-            <p>Agencies optimize for delivering projects. Miles optimizes for the underlying platform each project runs
-              on architecture that outlives any single engagement.</p>
-            <p>We don't Execute our Project Faster, We execute correctly without wasting Time</p>
-          </div>
-          <div class="why-row" style="border-color:var(--line-dark)">
-            <div class="label">VS. SAAS STARTUPS</div>
-            <p>Most SaaS startups pick one product and one market. Miles applies one engineering discipline across
-              several industries where correctness and isolation genuinely matter.</p>
-          </div>
-          <div class="why-row" style="border-color:var(--line-dark)">
-            <div class="label">VS. AI COMPANIES</div>
-            <p>AI, where it appears in our products, is an assistive capability not the core identity. The core identity
-              is secure, deterministic, auditable infrastructure.</p>
-          </div>
-          <div class="why-row" style="border-color:var(--line-dark)">
-            <div class="label">VS. LOW-COST OUTSOURCING</div>
-            <p>Miles is not competing on price. Miles is competing on whether the system still behaves correctly under
-              real operational pressure, years after launch.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ENGINEERING APPROACH -->
-    <section class="section-pad on-paper" style="border-top:1px solid var(--line-light)">
-      <div class="wrap">
-        <div class="section-head reveal">
-          <span class="eyebrow">How We Work</span>
-          <h2>A consistent process for engaging with any organization.</h2>
-          <p>This is a real sequence each stage depends on the one before it.</p>
-        </div>
-        <div class="approach-list reveal">
-          <div class="approach-item">
-            <span class="num">01</span>
-            <h4>Discovery</h4>
-            <p>Understand the organization's operations, constraints, and where software currently falls short of them.
+          <div class="process-card">
+            <h4>Healthcare</h4>
+            <p>Healthcare organizations depend on information moving reliably and securely between people and systems.
             </p>
           </div>
-          <div class="approach-item">
-            <span class="num">02</span>
-            <h4>Architecture &amp; Design</h4>
-            <p>Define trust boundaries, data ownership, and system behavior before a single feature is built.</p>
+          <div class="process-card">
+            <h4>Security</h4>
+            <p>Security teams need situational awareness they can trust and act on.</p>
           </div>
-          <div class="approach-item">
-            <span class="num">03</span>
-            <h4>Engineering &amp; Hardening</h4>
-            <p>Build against those boundaries, with security and auditability treated as requirements, not polish.</p>
-          </div>
-          <div class="approach-item">
-            <span class="num">04</span>
-            <h4>Operate &amp; Evolve</h4>
-            <p>Support the platform as it runs in the real world, and evolve it as the organization's needs change.</p>
+          <div class="process-card">
+            <h4>Commerce</h4>
+            <p>Businesses need a real digital storefront without building infrastructure from scratch.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- COLLABORATION -->
-    <section class="section-pad on-paper" style="border-top:1px solid var(--line-light)">
+    <!-- ENGINEERING PRINCIPLES (full detail) -->
+    <section class="section-pad on-paper" id="engineering">
       <div class="wrap">
         <div class="section-head reveal">
-          <span class="eyebrow">Working With Miles</span>
-          <h2>Three ways organizations engage with Miles Platforms Group.</h2>
+          <span class="eyebrow">Engineering Philosophy</span>
+          <h2>Seven principles that govern how every Miles platform is built.</h2>
+          <p>These aren't slogans. They are the constraints every product in our portfolio is designed against.</p>
         </div>
-        <div class="paths reveal">
-          <div class="path-card">
-            <h3>Explore Our Platforms</h3>
-            <p>Learn about a specific platform in our portfolio and what it's designed to do for your organization once
-              available.</p>
-            <a href="#platforms" class="cta">Explore platforms →</a>
+        <div class="process-row reveal">
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">1</span>
+            <h4>High-Integrity Engineering</h4>
+            <p style="color:var(--muted-light)">Systems behave predictably under clearly defined conditions — every time
+              those conditions hold.</p>
           </div>
-          <div class="path-card">
-            <h3>Work With Miles</h3>
-            <p>Organizations that need custom technology infrastructure built with the same engineering discipline
-              behind our platforms.</p>
-            <a href="#contact" class="cta">Start a conversation →</a>
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">2</span>
+            <h4>Logical Determinism</h4>
+            <p style="color:var(--muted-light)">Critical operations have clearly defined, predictable, traceable
+              outcomes.</p>
           </div>
-          <div class="path-card">
-            <h3>Partner With Miles</h3>
-            <p>Strategic and technology partners exploring a longer-term relationship with Miles Platforms Group.</p>
-            <a href="#contact" class="cta">Discuss partnership →</a>
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">3</span>
+            <h4>Strong Isolation</h4>
+            <p style="color:var(--muted-light)">One organization must never be able to see, touch, or affect another's
+              data.</p>
+          </div>
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">4</span>
+            <h4>Auditability</h4>
+            <p style="color:var(--muted-light)">Important actions are traceable — who did what, when, and under what
+              authority.</p>
+          </div>
+        </div>
+        <div class="process-row reveal" style="margin-top:20px">
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">5</span>
+            <h4>Resilience</h4>
+            <p style="color:var(--muted-light)">Systems are designed with failure in mind, degrading gracefully rather
+              than catastrophically.</p>
+          </div>
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">6</span>
+            <h4>Security by Architecture</h4>
+            <p style="color:var(--muted-light)">Security lives in boundaries, authorization, and validation — not bolted
+              on at the end.</p>
+          </div>
+          <div class="process-card" style="background:#fff;border-color:var(--line-light)">
+            <span class="num">7</span>
+            <h4>Explicit Trust Boundaries</h4>
+            <p style="color:var(--muted-light)">Every system defines what is trusted, what is not, and what happens at
+              the line between them.</p>
+          </div>
+          <div class="process-card" style="background:var(--ink);border-color:var(--line-dark)">
+            <span class="num" style="background:var(--brass);color:var(--ink)">→</span>
+            <h4 style="color:#F5F5F1">How We Work</h4>
+            <p style="color:#B9BBB6">A four-stage process: Discovery → Architecture &amp; Design → Engineering &amp;
+              Hardening → Operate &amp; Evolve.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT / COMPANY -->
-    <section class="section-pad on-paper" id="company" style="border-top:1px solid var(--line-light)">
+    <!-- COLLABORATION (mirrors "Investor Relations" CTA block) -->
+    <section class="section-pad" style="border-top:1px solid var(--line-dark)">
+      <div class="wrap">
+        <div class="cta-block reveal">
+          <div>
+            <span class="eyebrow">Working With Miles</span>
+            <h2 style="margin-top:14px;font-size:clamp(24px,3vw,32px)">Three ways organizations engage with Miles
+              Platforms Group.</h2>
+            <p>Whether you want to explore a platform already in our portfolio, commission custom infrastructure, or
+              explore a longer-term partnership — every engagement starts the same way: a direct conversation about what
+              you actually need.</p>
+            <a href="#contact" class="btn btn-primary">Start a conversation <span class="btn-arrow">→</span></a>
+          </div>
+          <div class="paths" style="margin-top:0">
+            <div class="path-card">
+              <h3>Explore Platforms</h3>
+              <p>Learn what a specific platform is designed to do for your organization once available.</p>
+              <a href="#platforms" class="cta">Explore →</a>
+            </div>
+            <div class="path-card">
+              <h3>Work With Miles</h3>
+              <p>Custom technology infrastructure, built with the same engineering discipline as our platforms.</p>
+              <a href="#contact" class="cta">Get in touch →</a>
+            </div>
+            <div class="path-card">
+              <h3>Partner With Miles</h3>
+              <p>Strategic and technology partners exploring a longer-term relationship.</p>
+              <a href="#contact" class="cta">Discuss →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STANDARD / CLOSING PILLAR SECTION -->
+    <section class="standard">
+      <div class="wrap standard-inner">
+        <div class="reveal">
+          <span class="eyebrow">Our Standard</span>
+          <h2>Ambitious about the opportunity. Ruthless about evidence.</h2>
+          <p>Miles Platforms Group applies one engineering discipline across every product we build — the same standard,
+            whether the industry is education, healthcare, security, or commerce.</p>
+          <div class="pillar-tags">
+            <span class="pillar-tag">High-Integrity Engineering</span>
+            <span class="pillar-tag">Logical Determinism</span>
+            <span class="pillar-tag">Strong Isolation</span>
+            <span class="pillar-tag">Auditability</span>
+            <span class="pillar-tag">Resilience</span>
+            <span class="pillar-tag">Security by Architecture</span>
+            <span class="pillar-tag">Explicit Trust Boundaries</span>
+          </div>
+        </div>
+        <div class="standard-quote reveal">
+          <p>"We don't execute our projects faster — we execute correctly, without wasting time. Every platform on this
+            site is labeled exactly as what it is today: in development. We'd rather earn trust through engineering
+            clarity than overstate where we stand."</p>
+          <div class="attr">— Terüngwâ Péter, CEO, Miles Platforms Group</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section-pad on-paper" id="company">
       <div class="wrap about-grid">
         <div class="about-copy reveal">
-          <span class="eyebrow">Company</span>
+          <span class="eyebrow">About Us</span>
           <h2 style="font-size:clamp(24px,3vw,32px);margin:14px 0 22px">About Miles Platforms Group</h2>
           <p>Miles Platforms Group is a software engineering and technology platforms company. We exist to build
-            dependable digital infrastructure for organizations whose operations depend on software schools,
+            dependable digital infrastructure for organizations whose operations depend on software — schools,
             universities, healthcare organizations, security teams, and businesses.</p>
-          <p>Rather than building one product for one market, Miles applies a single engineering discipline
-            high-integrity, deterministic, auditable, and resilient by design across the technology portfolio described
-            on this site. Every platform above is currently in development as part of that portfolio and roadmap.</p>
+          <p>Rather than building one product for one market, Miles applies a single engineering discipline —
+            high-integrity, deterministic, auditable, and resilient by design — across the technology portfolio
+            described on this site. Every platform above is currently in development as part of that portfolio and
+            roadmap.</p>
           <p>We believe the way to earn trust from institutions with real operational stakes is through engineering
-            clarity and honest communication about where each platform stands not through overstated claims.</p>
+            clarity and honest communication about where each platform stands — not through overstated claims.</p>
         </div>
         <div class="leadership reveal">
           <div class="photo"><img
               src="data:image/jpeg;base64,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"
-              alt="Terungwa Peter, CEO of Miles Platforms Group" width="96" height="96"></div>
+              alt="Terüngwâ Péter, CEO of Miles Platforms Group" width="96" height="96"></div>
           <h4>Terüngwâ Péter</h4>
           <div class="role">CEO, Miles Platforms Group</div>
         </div>
@@ -1927,7 +1789,7 @@
         <div class="contact-info reveal">
           <span class="eyebrow">Contact</span>
           <h3 style="margin-top:14px">Get in touch with Miles Platforms Group</h3>
-          <p class="muted" style="margin-bottom:24px">Tell us about your organization and where you'd like to start
+          <p class="muted" style="margin-bottom:24px">Tell us about your organization and where you'd like to start —
             exploring a platform, a custom engagement, or a partnership.</p>
           <div class="contact-line"><span class="k">Company</span><span>Miles Platforms Group</span></div>
           <div class="contact-line"><span class="k">CEO</span><span>Terüngwâ Péter</span></div>
@@ -1996,7 +1858,7 @@
             <button type="submit" class="btn btn-primary" style="justify-self:start">Send Enquiry <span
                 class="btn-arrow">→</span></button>
             <p class="form-note">Submitting opens your email client with this enquiry addressed to
-              milesplatformgroup@gmail.com no data is stored or transmitted by this site.</p>
+              milesplatformgroup@gmail.com — no data is stored or transmitted by this site.</p>
             <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
           </form>
         </div>
@@ -2007,7 +1869,7 @@
 
   <footer>
     <div class="wrap">
-      <div class="footer-grid">
+      <div class="footer-top">
         <div class="footer-brand">
           <span class="brand-text"><b>MILES</b><span>PLATFORMS GROUP</span></span>
           <p>Engineering the digital infrastructure behind complex organizations.</p>
@@ -2027,21 +1889,25 @@
           <ul>
             <li><a href="#engineering">Engineering</a></li>
             <li><a href="#industries">Industries</a></li>
-            <li><a href="#company">About</a></li>
+            <li><a href="#company">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h5>Contact</h5>
-          <ul>
-            <li><a href="tel:+2348034994962">+234 803 499 4962</a></li>
-            <li><a href="mailto:milesplatformgroup@gmail.com">milesplatformgroup@gmail.com</a></li>
-            <li><a href="https://wa.me/2348034994962" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
-          </ul>
+          <h5>Stay Updated</h5>
+          <p style="font-size:13.5px;color:var(--muted-dark);margin-bottom:12px">Leave your email and we'll reach out
+            when a platform is ready to launch.</p>
+          <form class="newsletter" id="newsletterForm">
+            <input type="email" id="newsletterEmail" placeholder="you@organization.com" required
+              aria-label="Email address">
+            <button type="submit">Notify Me</button>
+          </form>
+          <p class="form-status" id="newsletterStatus" role="status" aria-live="polite" style="margin-top:8px"></p>
         </div>
       </div>
       <div class="footer-bottom">
         <span>© 2026 Miles Platforms Group. All rights reserved.</span>
+        <span>Company Registration No. 9834282</span>
         <span>All platforms listed are currently in development.</span>
       </div>
     </div>
@@ -2058,44 +1924,95 @@
 
   <script>
     // Mobile nav toggle
-    const navToggle = document.getElementById('navToggle');
-    const primaryNav = document.getElementById('primaryNav');
-    navToggle.addEventListener('click', () => {
-      const isOpen = primaryNav.classList.toggle('open');
+    var navToggle = document.getElementById('navToggle');
+    var primaryNav = document.getElementById('primaryNav');
+    navToggle.addEventListener('click', function () {
+      var isOpen = primaryNav.classList.toggle('open');
       navToggle.setAttribute('aria-expanded', String(isOpen));
     });
-    primaryNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-      primaryNav.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
-    }));
+    primaryNav.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        primaryNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Hero slider
+    (function () {
+      var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+      var dotsWrap = document.getElementById('sliderDots');
+      var current = 0;
+      var timer;
+      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      slides.forEach(function (_, i) {
+        var dot = document.createElement('button');
+        dot.className = 'slider-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Go to slide ' + (i + 1));
+        dot.addEventListener('click', function () { goTo(i); resetTimer(); });
+        dotsWrap.appendChild(dot);
+      });
+      var dots = Array.prototype.slice.call(dotsWrap.children);
+
+      function goTo(i) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = (i + slides.length) % slides.length;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+      }
+      function next() { goTo(current + 1); }
+      function prev() { goTo(current - 1); }
+      function resetTimer() {
+        if (reduceMotion) return;
+        clearInterval(timer);
+        timer = setInterval(next, 6500);
+      }
+
+      document.getElementById('nextSlide').addEventListener('click', function () { next(); resetTimer(); });
+      document.getElementById('prevSlide').addEventListener('click', function () { prev(); resetTimer(); });
+
+      resetTimer();
+    })();
 
     // Scroll reveal
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
-      const io = new IntersectionObserver((entries) => {
-        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
       }, { threshold: 0.12 });
-      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+      document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
     } else {
-      document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+      document.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('in'); });
     }
 
-    // Contact form -> mailto, with basic client-side validation and honeypot check
-    const form = document.getElementById('enquiryForm');
-    const status = document.getElementById('formStatus');
+    // Contact form -> mailto
+    var form = document.getElementById('enquiryForm');
+    var status = document.getElementById('formStatus');
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      if (form.company_website.value) { return; } // honeypot triggered — silently ignore
-      if (!form.checkValidity()) {
-        form.reportValidity();
-        return;
-      }
-      const d = Object.fromEntries(new FormData(form).entries());
-      const subject = encodeURIComponent(`Enquiry from ${d.name} (${d.organization})`);
-      const body = encodeURIComponent(
-        `Name: ${d.name}\nOrganization: ${d.organization}\nEmail: ${d.email}\nOrganization type: ${d.organization_type}\nArea of interest: ${d.area_of_interest}\nTimeline: ${d.timeline || 'Not specified'}\n\nMessage:\n${d.message}`
+      if (form.company_website.value) { return; }
+      if (!form.checkValidity()) { form.reportValidity(); return; }
+      var d = Object.fromEntries(new FormData(form).entries());
+      var subject = encodeURIComponent('Enquiry from ' + d.name + ' (' + d.organization + ')');
+      var body = encodeURIComponent(
+        'Name: ' + d.name + '\nOrganization: ' + d.organization + '\nEmail: ' + d.email +
+        '\nOrganization type: ' + d.organization_type + '\nArea of interest: ' + d.area_of_interest +
+        '\nTimeline: ' + (d.timeline || 'Not specified') + '\n\nMessage:\n' + d.message
       );
-      window.location.href = `mailto:milesplatformgroup@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = 'mailto:milesplatformgroup@gmail.com?subject=' + subject + '&body=' + body;
       status.textContent = 'Opening your email client…';
+    });
+
+    // Newsletter -> mailto (static site, no backend)
+    var newsletterForm = document.getElementById('newsletterForm');
+    var newsletterStatus = document.getElementById('newsletterStatus');
+    newsletterForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var email = document.getElementById('newsletterEmail').value;
+      var subject = encodeURIComponent('Notify me when a platform launches');
+      var body = encodeURIComponent('Please notify this address when a Miles Platforms Group product becomes available: ' + email);
+      window.location.href = 'mailto:milesplatformgroup@gmail.com?subject=' + subject + '&body=' + body;
+      newsletterStatus.textContent = 'Opening your email client…';
     });
   </script>
 
